@@ -1,5 +1,5 @@
 ![Header](https://github.com/vinayakajith/vinayakajith/blob/main/github-header-image.png?raw=true)
-<h1 align="center">Hi 👋, I'm Vinayak Ajith</h1>
+<h1 align="center">Hi 👋, I'm Vinayak_Ajith</h1>
 <h3 align="center">Motivated and detail-oriented B.Tech CSE graduate with strong proficiency in Python, SQL, and data analysis. Experienced in automation, data visualization, and problem-solving through hands-on projects. Adept at leveraging technical skills to analyze complex datasets and develop efficient solutions</h3>
 <img align="right"alt="Coding" width="250"   src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
 - Hi, I'm currently working on **Comprehensive Data Insights: Workforce Analytics Dashboard**
