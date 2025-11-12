@@ -85,7 +85,6 @@ Currently leading a small ML team building a **Hierarchical Emotion Classificati
 </p>
 
 📫 **thevinayakajith@gmail.com**  
-📄 [View Resume](https://drive.google.com/file/d/17d4rZqNhjx4aa_RKPssJFAu9rM2Hazno/view?usp=share_link)
 
 ---
 
