@@ -1,6 +1,5 @@
-![Header](https://github.com/vinayakajith/vinayakajith/blob/main/github-header-image.png?raw=true)
+![Header](https://github.com/vinayakajith/vinayakajith/blob/main/github-header-banner%20(1).png)
 
-<h1 align="center">Hi 👋, I'm Vinayak_Ajith</h1>
 <h3 align="center">AI/ML Developer • Python • Deep Learning • Applied AI Systems</h3>
 
 
