@@ -1,30 +1,92 @@
 ![Header](https://github.com/vinayakajith/vinayakajith/blob/main/github-header-image.png?raw=true)
+
 <h1 align="center">Hi 👋, I'm Vinayak_Ajith</h1>
-<h3 align="center">Motivated and detail-oriented B.Tech CSE graduate with strong proficiency in Python, SQL, and data analysis. Experienced in automation, data visualization, and problem-solving through hands-on projects. Adept at leveraging technical skills to analyze complex datasets and develop efficient solutions</h3>
-<img align="right"alt="Coding" width="250"   src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
-- Hi, I'm currently working on **Comprehensive Data Insights: Workforce Analytics Dashboard**
+<h3 align="center">AI/ML Developer • Python • Deep Learning • Applied AI Systems</h3>
 
-- 🌱 I’m currently learning **Power BI**
 
-- 👯 I’m looking to collaborate on **Attendance on Autopilot**
 
-- 💬 Ask me about **Python3 Sql**
-
-- 📫 How to reach me **thevinayakajith@gmail.com**
-
-- 📄 Know about my experiences [https://drive.google.com/file/d/17d4rZqNhjx4aa_RKPssJFAu9rM2Hazno/view?usp=share_link](https://drive.google.com/file/d/17d4rZqNhjx4aa_RKPssJFAu9rM2Hazno/view?usp=share_link)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/vinayak-ajith-208993266" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="vinayak-ajith-208993266" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/vinayakajith" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="vinayakajith" height="30" width="40" /></a>
+<!-- Animated banner -->
+<p align="center">
+  <img src="assets/ai-typing.gif" alt="Machine Learning • NLP • Deep Learning" width="640" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=vinayakajith&show_icons=true&locale=en&layout=compact" alt="vinayakajith" /></p>
+### 🚀 About Me  
+I'm a B.Tech CSE graduate focused on **AI engineering and applied machine learning** — from data to deployment.  
+I love designing systems that actually *understand* — emotion models, intelligent pipelines, and data-driven automation.  
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=vinayakajith&show_icons=true&locale=en" alt="vinayakajith" /></p>
+Currently leading a small ML team building a **Hierarchical Emotion Classification System** — emotion detection with layered semantics and interpretability.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=vinayakajith&" alt="vinayakajith" /></p>
+---
+
+### 🧠 Highlighted Projects  
+- **130-Emotion Classification (NLP)**  
+  Fine-tuned transformer-based model on 130 fine-grained emotion labels. Focused on label balance, contextual accuracy, and reliability.  
+
+- **Hierarchical Emotion Classification (Lead)**  
+  Designed two-stage emotion hierarchy for better generalization and explainability. Deployed prototype with FastAPI endpoint.  
+
+- **Missing Person Detection System (Vision)**  
+  Face-recognition-based search engine using embeddings and cosine similarity. Integrated with vector search pipeline.  
+
+- **Attendance on Autopilot (Prototype)**  
+  Automated attendance system powered by face embeddings and API ingestion. Backend: FastAPI + lightweight inference model.  
+
+---
+
+### 🧩 Core Skills  
+**Languages:** Python, SQL  
+**AI & ML Frameworks:** PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers  
+**Vision & NLP:** OpenCV, spaCy, Transformers, Sentence Embeddings  
+**Backend & Infra:** FastAPI, Flask, Docker, REST APIs, AWS EC2/S3  
+**Tools & Libraries:** pandas, numpy, matplotlib, seaborn  
+**Cloud & Deployment:** AWS, Render, Railway, GitHub Actions (CI/CD)  
+**Focus:** NLP, Computer Vision, Emotion AI, Production ML, API-based model serving  
+
+---
+
+### 🧰 Tools & Tech  
+<p align="left">
+  <a href="https://www.python.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/></a>
+  <a href="https://pytorch.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40" height="40"/></a>
+  <a href="https://www.tensorflow.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="40" height="40"/></a>
+  <a href="https://scikit-learn.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="40" height="40"/></a>
+  <a href="https://huggingface.co/" target="_blank"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40" height="40"/></a>
+  <a href="https://openai.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" width="40" height="40"/></a>
+  <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" width="40" height="40"/></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40"/></a>
+  <a href="https://aws.amazon.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/amazon-web-services-2.svg" width="40" height="40"/></a>
+  <a href="https://git-scm.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40"/></a>
+  <a href="https://numpy.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="40" height="40"/></a>
+  <a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="40" height="40"/></a>
+  <a href="https://opencv.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="40" height="40"/></a>
+</p>
+
+---
+
+### 📈 GitHub Stats  
+<p>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=vinayakajith&show_icons=true&layout=compact" />
+  &nbsp;
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vinayakajith&show_icons=true&theme=default" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vinayakajith&theme=default" />
+</p>
+
+---
+
+### 🌐 Connect  
+<p align="left">
+  <a href="https://linkedin.com/in/vinayak-ajith-208993266" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
+  <a href="https://www.leetcode.com/vinayakajith" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40" /></a>
+</p>
+
+📫 **thevinayakajith@gmail.com**  
+📄 [View Resume](https://drive.google.com/file/d/17d4rZqNhjx4aa_RKPssJFAu9rM2Hazno/view?usp=share_link)
+
+---
+
+<h4 align="center">⚙️ I build systems that understand, not just compute. ⚙️</h4>
