@@ -2,8 +2,6 @@
 
 <h3 align="center">AI/ML Developer • Python • Deep Learning • Applied AI Systems</h3>
 
-
-
 <!-- Animated banner -->
 <p align="center">
   <img src="assets/ai-typing.gif" alt="Machine Learning • NLP • Deep Learning" width="640" />
