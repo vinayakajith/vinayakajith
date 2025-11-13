@@ -36,7 +36,7 @@ Currently leading a small ML team building a **Hierarchical Emotion Classificati
 **Languages:** Python, SQL  
 **AI & ML Frameworks:** PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers  
 **Vision & NLP:** OpenCV, spaCy, Transformers, Sentence Embeddings  
-**Backend & Infra:** FastAPI, Flask, Docker, REST APIs, AWS EC2/S3  
+**Backend & Infra:** FastAPI, Docker, REST APIs, AWS EC2/S3  
 **Tools & Libraries:** pandas, numpy, matplotlib, seaborn  
 **Cloud & Deployment:** AWS, Render, Railway, GitHub Actions (CI/CD)  
 **Focus:** NLP, Computer Vision, Emotion AI, Production ML, API-based model serving  
