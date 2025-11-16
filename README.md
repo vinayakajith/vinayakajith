@@ -15,7 +15,7 @@ I love designing systems that actually *understand* — emotion models, intellig
 
 Currently leading a small ML team building a **Hierarchical Emotion Classification System** — emotion detection with layered semantics and interpretability.
 
----
+--
 
 ### 🧠 Highlighted Projects  
 - **130-Emotion Classification (NLP)**  
