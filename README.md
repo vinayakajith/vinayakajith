@@ -69,16 +69,6 @@ If it works in prod and solves the problem, it's good ML. Everything else is jus
 
 ---
 
-### 📈 GitHub Stats  
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=vinayakajith&show_icons=true&layout=compact" />
-  &nbsp;
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=vinayakajith&show_icons=true&theme=default" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vinayakajith&theme=default" />
-</p>
 
 ---
 
