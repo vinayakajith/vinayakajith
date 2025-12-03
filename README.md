@@ -9,12 +9,19 @@
 
 ---
 
-### 🚀 About Me  
-I'm a B.Tech CSE graduate focused on **AI engineering and applied machine learning** — from data to deployment.  
-I love designing systems that actually *understand* — emotion models, intelligent pipelines, and data-driven automation.  
+🚀 About Me
+I'm a B.Tech CSE graduate who builds ML systems that actually ship. I don't just train models — I build end-to-end pipelines that go from raw data to deployed predictions, running in production and solving real problems.
+What I do:
 
-Currently leading a small ML team building a **Hierarchical Emotion Classification System** — emotion detection with layered semantics and interpretability.
+Design lightweight, production-ready ML architectures that prioritize speed and reliability over unnecessary complexity
+Lead fast experimentation cycles: prototype quickly, test assumptions, and iterate until the system works at scale
+Build explainable AI systems where every prediction can be traced, understood, and trusted
 
+Current focus:
+I'm leading a small team developing a Hierarchical Emotion Classification System for real-time deployment. We're building a tight inference pipeline with interpretability at its core — because ML that can't explain itself isn't ready for production.
+My approach:
+I take ambiguous requirements, break them into MVPs, and iterate rapidly until the system is stable, scalable, and user-ready. I care about ML that ships, not ML that lives in Jupyter notebooks forever.
+If it works in prod and solves the problem, it's good ML. Everything else is just research
 --
 
 ### 🧠 Highlighted Projects  
