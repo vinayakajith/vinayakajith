@@ -1,85 +1,106 @@
-![Header](https://github.com/vinayakajith/vinayakajith/blob/main/github-header-banner%20(1).png)
+<div align="center">
 
-<h3 align="center">AI/ML Developer • Python • Deep Learning • Applied AI Systems</h3>
+# Vinayak Ajith
+### AI/ML Engineer · LLM Systems · RAG · Fine-Tuning · Production AI
 
-<!-- Animated banner -->
-<p align="center">
-  <img src="assets/ai-typing.gif" alt="Machine Learning • NLP • Deep Learning" width="640" />
+<p>
+  <a href="https://linkedin.com/in/vinayak-ajith-208993266" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:thevinayakajith@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://www.leetcode.com/vinayakajith" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  </a>
 </p>
 
----
-
-🚀 About Me
-I'm a B.Tech CSE graduate who builds ML systems that actually ship. I don't just train models — I build end-to-end pipelines that go from raw data to deployed predictions, running in production and solving real problems.
-What I do:
-
-Design lightweight, production-ready ML architectures that prioritize speed and reliability over unnecessary complexity
-Lead fast experimentation cycles: prototype quickly, test assumptions, and iterate until the system works at scale
-Build explainable AI systems where every prediction can be traced, understood, and trusted
-
-Current focus:
-I'm leading a small team developing a Hierarchical Emotion Classification System for real-time deployment. We're building a tight inference pipeline with interpretability at its core — because ML that can't explain itself isn't ready for production.
-My approach:
-I take ambiguous requirements, break them into MVPs, and iterate rapidly until the system is stable, scalable, and user-ready. I care about ML that ships, not ML that lives in Jupyter notebooks forever.
-If it works in prod and solves the problem, it's good ML. Everything else is just research
---
-
-### 🧠 Highlighted Projects  
-- **130-Emotion Classification (NLP)**  
-  Fine-tuned transformer-based model on 130 fine-grained emotion labels. Focused on label balance, contextual accuracy, and reliability.  
-
-- **Hierarchical Emotion Classification (Lead)**  
-  Designed two-stage emotion hierarchy for better generalization and explainability. Deployed prototype with FastAPI endpoint.  
-
-- **Missing Person Detection System (Vision)**  
-  Face-recognition-based search engine using embeddings and cosine similarity. Integrated with vector search pipeline.  
-
-- **Attendance on Autopilot (Prototype)**  
-  Automated attendance system powered by face embeddings and API ingestion. Backend: FastAPI + lightweight inference model.  
+</div>
 
 ---
 
-### 🧩 Core Skills  
-**Languages:** Python, SQL  
-**AI & ML Frameworks:** PyTorch, TensorFlow, scikit-learn, Hugging Face Transformers  
-**Vision & NLP:** OpenCV, spaCy, Transformers, Sentence Embeddings  
-**Backend & Infra:** FastAPI, Docker, REST APIs, AWS EC2/S3  
-**Tools & Libraries:** pandas, numpy, matplotlib, seaborn  
-**Cloud & Deployment:** AWS, Render, Railway, GitHub Actions (CI/CD)  
-**Focus:** NLP, Computer Vision, Emotion AI, Production ML, API-based model serving  
+## About
+
+I'm an AI/ML Engineer focused on building **LLM-powered systems that work in the real world** — not benchmarks, not demos. My work sits at the intersection of language models, data infrastructure, and production-grade deployment.
+
+Right now I'm deep in the space of **RAG pipelines**, **LLM fine-tuning**, and **local model serving** — building applications where intelligence meets utility. I care about systems that are fast, explainable, and actually solve problems worth solving.
+
+> *The best AI system is the one running in production. Everything else is a prototype.*
 
 ---
 
-### 🧰 Tools & Tech  
-<p align="left">
-  <a href="https://www.python.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40" height="40"/></a>
-  <a href="https://pytorch.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytorch/pytorch-original.svg" width="40" height="40"/></a>
-  <a href="https://www.tensorflow.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tensorflow/tensorflow-original.svg" width="40" height="40"/></a>
-  <a href="https://scikit-learn.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scikitlearn/scikitlearn-original.svg" width="40" height="40"/></a>
-  <a href="https://huggingface.co/" target="_blank"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="40" height="40"/></a>
-  <a href="https://openai.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/OpenAI_Logo.svg" width="40" height="40"/></a>
-  <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" width="40" height="40"/></a>
-  <a href="https://www.docker.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40"/></a>
-  <a href="https://aws.amazon.com/" target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/amazon-web-services-2.svg" width="40" height="40"/></a>
-  <a href="https://git-scm.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40"/></a>
-  <a href="https://numpy.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="40" height="40"/></a>
-  <a href="https://pandas.pydata.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="40" height="40"/></a>
-  <a href="https://opencv.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" width="40" height="40"/></a>
-</p>
+## 🚀 What I'm Building in 2026
+
+### 🗄️ NL2DB — Talk to Your Database in Plain English
+A local-first application that lets you query any database using natural language — no SQL required.
+
+**What makes it different:**
+- 🔍 **Automatic DB detection & connection** — point it at a connection string and it maps your schema on its own
+- 🧠 **Dual-mode inference** — runs with a **local LLM** (Ollama / custom endpoint) or the **Claude API**, swappable at runtime
+- 🔌 **Custom endpoint support** — bring your own model server; any OpenAI-compatible API works
+- 🧩 **Schema-aware prompting** — dynamically injects table structure into context for accurate query generation
+- ⚡ **Lightweight, self-hostable** — no cloud dependency required; runs fully offline
+
+> Stack: Python · FastAPI · LangChain · Ollama · Claude API · SQLAlchemy
 
 ---
 
+### 🧱 RAG Systems (Production-Grade)
+Building retrieval-augmented generation pipelines that go beyond naive chunk-and-retrieve:
+- Hybrid search (dense + sparse), reranking, metadata filtering
+- Chunking strategies tuned per document type
+- Evaluation pipelines for faithfulness, relevance, and groundedness
 
 ---
 
-### 🌐 Connect  
-<p align="left">
-  <a href="https://linkedin.com/in/vinayak-ajith-208993266" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" height="30" width="40" /></a>
-  <a href="https://www.leetcode.com/vinayakajith" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" height="30" width="40" /></a>
-</p>
-
-📫 **thevinayakajith@gmail.com**  
+### 🎯 LLM Fine-Tuning
+Fine-tuning open-source models for domain-specific tasks:
+- LoRA / QLoRA on task-specific datasets
+- Instruction tuning with custom data pipelines
+- Benchmarking fine-tuned vs. prompted base models
 
 ---
 
-<h4 align="center">⚙️ I build systems that understand, not just compute. ⚙️</h4>
+### 🧠 Hierarchical Emotion Classification *(Lead)*
+Two-stage emotion classification system — coarse-to-fine label hierarchy for better generalization and interpretability. Deployed as a FastAPI inference endpoint.
+
+---
+
+### 👁️ Earlier Projects
+| Project | Description |
+|---|---|
+| **130-Emotion NLP Classifier** | Fine-tuned transformer on 130 fine-grained emotion labels with label balancing |
+| **Missing Person Detection** | Face-embedding search engine with cosine similarity + vector search pipeline |
+| **Attendance on Autopilot** | Automated face-recognition attendance system backed by FastAPI |
+
+---
+
+## 🧰 Tech Stack
+
+**LLM & AI**  
+`LangChain` `LlamaIndex` `Ollama` `Claude API` `Hugging Face Transformers` `PEFT / LoRA` `vLLM`
+
+**ML / Deep Learning**  
+`PyTorch` `TensorFlow` `scikit-learn` `sentence-transformers` `spaCy` `OpenCV`
+
+**Backend & Infra**  
+`FastAPI` `Docker` `PostgreSQL` `SQLite` `SQLAlchemy` `REST APIs`
+
+**Cloud & DevOps**  
+`AWS (EC2, S3)` `Render` `Railway` `GitHub Actions`
+
+**Languages**  
+`Python` `SQL`
+
+---
+
+## 📫 Reach Me
+
+**Email:** thevinayakajith@gmail.com  
+**LinkedIn:** [vinayak-ajith-208993266](https://linkedin.com/in/vinayak-ajith-208993266)
+
+---
+
+<div align="center">
+  <sub>⚙️ Building systems that understand, not just compute. ⚙️</sub>
+</div>
