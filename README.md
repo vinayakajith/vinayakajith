@@ -1,106 +1,65 @@
-<div align="center">
-
 # Vinayak Ajith
-### AI/ML Engineer · LLM Systems · RAG · Fine-Tuning · Production AI
 
-<p>
-  <a href="https://linkedin.com/in/vinayak-ajith-208993266" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:thevinayakajith@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://www.leetcode.com/vinayakajith" target="_blank">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-  </a>
-</p>
+I build agents that run against real company data, where being wrong is expensive.
 
-</div>
+Most of my work is closed-source, so instead of repos, here's what it taught me.
 
 ---
 
-## About
+## Notes from a year of putting an agent in production
 
-I'm an AI/ML Engineer focused on building **LLM-powered systems that work in the real world** — not benchmarks, not demos. My work sits at the intersection of language models, data infrastructure, and production-grade deployment.
+**The last message in the loop is not the answer.**
+An agentic loop that runs out of steps will happily emit its own internal reasoning as a final response — plans, half-thoughts, "let me check one more thing." The fix isn't a better prompt. It's a terminal synthesis node that always runs and is *forced* via `tool_choice` to call a submit-findings tool. Now the output is a schema, not whatever the model was mid-sentence about. Structure beats instruction.
 
-Right now I'm deep in the space of **RAG pipelines**, **LLM fine-tuning**, and **local model serving** — building applications where intelligence meets utility. I care about systems that are fast, explainable, and actually solve problems worth solving.
+**Never let a model write its own citations.**
+Every source id my email subagent cites gets re-verified against the store, and the Sources block is assembled from store data rather than model output. One hallucinated reference in fifty makes a user distrust all fifty — provenance is the one thing you cannot delegate to a probabilistic system.
 
-> *The best AI system is the one running in production. Everything else is a prototype.*
+**Delegate context, not just work.**
+Raw email bodies never enter the main transcript. A subagent gets a self-contained objective, reads bodies on a cheap Haiku-class model in its own private tool registry, and returns a ≤500-word digest. The main agent still reasons at full capability, at roughly 3–5× lower cost. Context isolation turns out to be a cost lever *and* a debuggability lever.
 
----
+**Put the determinism underneath the model, not around it.**
+Freshness, conflict resolution, safety checks — all Python. LLMs are unreliable at "which of these two contradictory facts is newer," and prompting harder doesn't fix a capability gap. The model decides what to ask. Code decides what's true.
 
-## 🚀 What I'm Building in 2026
+**AI features should degrade to the deterministic baseline.**
+My dashboard builds a spec from schema heuristics first, then an optional LLM pass refines it — validated tile by tile. Any tile the model malforms gets dropped and the baseline kept. Designed this way, the AI pass can only improve the result, never break it. This is the shape I now reach for by default.
 
-### 🗄️ NL2DB — Talk to Your Database in Plain English
-A local-first application that lets you query any database using natural language — no SQL required.
+**Rewrites need a harness, not confidence.**
+Replacing the hand-rolled agent loop with a LangGraph `StateGraph` shipped only after it matched the old engine event-for-event against pinned golden fixtures. "It looks like it still works" is not a migration strategy for nondeterministic systems.
 
-**What makes it different:**
-- 🔍 **Automatic DB detection & connection** — point it at a connection string and it maps your schema on its own
-- 🧠 **Dual-mode inference** — runs with a **local LLM** (Ollama / custom endpoint) or the **Claude API**, swappable at runtime
-- 🔌 **Custom endpoint support** — bring your own model server; any OpenAI-compatible API works
-- 🧩 **Schema-aware prompting** — dynamically injects table structure into context for accurate query generation
-- ⚡ **Lightweight, self-hostable** — no cloud dependency required; runs fully offline
+**Write down the trade-offs you accepted.**
+My docs have a "known limitations at scale" section — the unbounded `COUNT(*)` in hybrid search, the unbounded `fetchall()`, the per-process rate limiter. Naming them turns future surprise bugs into decisions someone already made on purpose.
 
-> Stack: Python · FastAPI · LangChain · Ollama · Claude API · SQLAlchemy
-
----
-
-### 🧱 RAG Systems (Production-Grade)
-Building retrieval-augmented generation pipelines that go beyond naive chunk-and-retrieve:
-- Hybrid search (dense + sparse), reranking, metadata filtering
-- Chunking strategies tuned per document type
-- Evaluation pipelines for faithfulness, relevance, and groundedness
+**The moat is the decision log, not the model.**
+Metrics only enter my semantic layer when a human explicitly promotes a verified answer. The agent never writes there itself. What accumulates is a human-confirmed record of what this business actually means by its own words — and that dataset is the part nobody can copy.
 
 ---
 
-### 🎯 LLM Fine-Tuning
-Fine-tuning open-source models for domain-specific tasks:
-- LoRA / QLoRA on task-specific datasets
-- Instruction tuning with custom data pipelines
-- Benchmarking fine-tuned vs. prompted base models
+## What I'm learning
+
+Karpathy's Zero to Hero, closed-book — the rule is I rebuild each piece from scratch with the video shut before moving on. Currently on micrograd's `Value` class.
+
+I've spent two years calling `.backward()` without being able to derive it. Framework fluency isn't understanding, and the gap only shows up when something breaks below the API surface — which, in production, it always does.
+
+Also working through PostgreSQL from first principles right now: B-tree internals, query planner behavior, why HNSW and GIN indexes behave the way they do under my own search workload. Learning the layer you already depend on beats learning the layer you might use someday.
 
 ---
 
-### 🧠 Hierarchical Emotion Classification *(Lead)*
-Two-stage emotion classification system — coarse-to-fine label hierarchy for better generalization and interpretability. Deployed as a FastAPI inference endpoint.
+## Where this is going
+
+Toward physical AI. Text agents fail softly — a bad answer gets rewritten. Robots fail into the world, which makes every problem I care about (grounding, verification, failure modes that degrade instead of explode) sharper and less forgiving.
+
+Immediate plan is unglamorous: finish the Karpathy rebuilds, buy a printer, build an SO-101 arm, and find out how much of what I know about agents survives contact with actuators.
 
 ---
 
-### 👁️ Earlier Projects
-| Project | Description |
-|---|---|
-| **130-Emotion NLP Classifier** | Fine-tuned transformer on 130 fine-grained emotion labels with label balancing |
-| **Missing Person Detection** | Face-embedding search engine with cosine similarity + vector search pipeline |
-| **Attendance on Autopilot** | Automated face-recognition attendance system backed by FastAPI |
+## Working with
+
+`Python` · `LangGraph` · `FastAPI` · `PostgreSQL + pgvector` · `Anthropic API` · `Docker` · `LangFuse`
+
+Comfortable in PyTorch and Hugging Face. Have used TensorFlow, vLLM, and AWS — wouldn't claim expertise in any of them.
 
 ---
 
-## 🧰 Tech Stack
+Chennai, India · [LinkedIn](https://linkedin.com/in/vinayak-ajith-208993266) · thevinayakajith@gmail.com
 
-**LLM & AI**  
-`LangChain` `LlamaIndex` `Ollama` `Claude API` `Hugging Face Transformers` `PEFT / LoRA` `vLLM`
-
-**ML / Deep Learning**  
-`PyTorch` `TensorFlow` `scikit-learn` `sentence-transformers` `spaCy` `OpenCV`
-
-**Backend & Infra**  
-`FastAPI` `Docker` `PostgreSQL` `SQLite` `SQLAlchemy` `REST APIs`
-
-**Cloud & DevOps**  
-`AWS (EC2, S3)` `Render` `Railway` `GitHub Actions`
-
-**Languages**  
-`Python` `SQL`
-
----
-
-## 📫 Reach Me
-
-**Email:** thevinayakajith@gmail.com  
-**LinkedIn:** [vinayak-ajith-208993266](https://linkedin.com/in/vinayak-ajith-208993266)
-
----
-
-<div align="center">
-  <sub>⚙️ Building systems that understand, not just compute. ⚙️</sub>
-</div>
+Happy to talk about agent architecture, retrieval that survives real corpora, or why your eval set is probably too easy.
